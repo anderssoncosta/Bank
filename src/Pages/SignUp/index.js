@@ -20,7 +20,7 @@ export default function SignUp() {
 
   function handleSignUp() {
     if (nome === "" || email === "" || password === "") {
-      return Alert.alert(`Atenção !`, `Preencha todoss os campo.`);
+      return Alert.alert(`Atenção !`, `Preencha todos os campo.`);
     }
     signUp(email, password, nome);
   }
